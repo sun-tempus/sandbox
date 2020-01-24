@@ -1,0 +1,16 @@
+name: sandbox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6.5
+  - numpy
+  - scipy
+  - jupyter
+  - ipython
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+    - ipdb
